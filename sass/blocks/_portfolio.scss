@@ -35,6 +35,10 @@
             border-radius: 8px;
             margin-top: 58px;
             cursor: pointer;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
             p {
                 transition: all .2s;
                 &:hover {
@@ -43,55 +47,6 @@
             }
             a {
                 text-decoration: none;
-            }
-            &_first {
-                background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%), #EEEEEE;
-                margin-top: 0;
-            }
-            &_second {
-                background: linear-gradient(90deg, #FF9A9E 0%, #FAD0C4 99%, #FAD0C4 100%), #EEEEEE;
-                margin-top: 0;
-            }
-            &_third {
-                background: linear-gradient(90deg, #FFECD2 0%, #FCB69F 100%), #EEEEEE;
-            }
-            &_four {
-                background: linear-gradient(90deg, #D4FC79 0%, #96E6A1 100%), #EEEEEE;
-            }
-            &_five {
-                background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%), #EEEEEE;
-            }
-            &_six {
-                background: linear-gradient(90deg, #FFF1EB 0%, #ACE0F9 100%), #EEEEEE;
-            }
-            &_text {
-                font-family: Inter;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 20px;
-                letter-spacing: 0.02em;
-                text-transform: uppercase;
-                color: #FFFFFF;
-                background: #212529;
-                border-radius: 32px;
-                position: absolute;
-                bottom: 16px;
-                left: 16px;
-                min-width: 130px;
-                min-height: 24px;
-                padding: 5px;
-                text-align: center;
-                p {
-                    font-family: Inter;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 20px;
-                    letter-spacing: 0.02em;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                }
             }
         }
         &_descr {
