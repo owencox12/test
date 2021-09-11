@@ -1,0 +1,94 @@
+.application {
+    min-height: 741px;
+    padding: 34px 15px 159px 15px;
+    &__wrapper {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    &__item {
+        &_second {
+            width: 70%;
+        }
+        &_name {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #212529;
+            margin-top: 32px;
+        }
+        &_descr {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150%;
+            color: #343A40;
+            margin-top: 6px;
+        }
+        &_form {
+            &_text {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                color: #ADB5BD;
+                margin-top: 48px;
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+            input {
+                border: none;
+                border-bottom: 1px solid #ADB5BD;
+                width: 562px;
+            }
+            textarea {
+                border: none;
+                border-bottom: 1px solid #ADB5BD;
+                width: 562px;
+                resize: none;
+                height: 70px;
+            }
+        }
+    }
+    &__download {
+
+        &_text {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.03em;
+            color: #212529;
+            margin-bottom: 17px;
+        }
+        &_link {
+            margin-top: 13px;
+            &:first-child {
+                margin-top: 0;
+            }
+            a {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 30px;
+                color: #D22020;
+                text-decoration: none;
+                img {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+    .input__validation {
+        border: 2px solid #D22020;
+        border-radius: 15px;
+    }
+}

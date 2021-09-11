@@ -1,0 +1,94 @@
+.about {
+    min-height: 750px;
+    padding: 20px 15px 34px 15px;
+    &__team {
+        display: flex;
+        flex-direction: row;
+        margin-top: 56px;
+        &_item {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 120%;
+            letter-spacing: -0.03em;
+            color: #212529;
+            margin: 0 16px;
+            &:first-child {
+                margin-left: 0;
+            }
+            span {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 32px;
+                line-height: 120%;
+                letter-spacing: -0.03em;
+                color: #D22020;
+                margin-right: 12px;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 58px;
+    }
+    &__item {
+        &_teamName {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #8D959D;
+            margin-top: 8px;
+            text-align: center;
+        }
+        width: 45%;
+        &_second {
+            display: flex;
+            flex-direction: column;
+        }
+        &_descr {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150%;
+            color: #495057;
+            width: 640px;
+        }
+        &_score {
+            display: flex;
+            margin-top: 64px;
+            &_number {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 120%;
+                letter-spacing: -0.03em;
+                color: #D22020;
+                margin: 0 22px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &_text {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #495057;
+                    width: 140px;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+}
+.about-img {
+    max-width: 100%;
+    height: auto;
+}

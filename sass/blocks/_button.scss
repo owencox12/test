@@ -1,0 +1,63 @@
+.button {
+    &--header {
+        width: 172px;
+        height: 44px;
+        background: #D22020;
+        border-radius: 50px;
+        border: none;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    &--portfolio {
+        background: none;
+        border: 1px solid #D22020;
+        width: 212px;
+        height: 64px;
+        border-radius: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 110px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #D22020;
+
+    }
+    &--about {
+        background: none;
+        border: 1px solid #D22020;
+        width: 212px;
+        height: 64px;
+        border-radius: 50px; 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #D22020;
+    }
+    &--application {
+        width: 192px;
+        height: 68px;
+        background: #D22020;
+        border-radius: 50px;
+        border: none;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-top: 48px;
+    }
+}

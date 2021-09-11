@@ -1,0 +1,303 @@
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 900px;
+    }
+    .portfolio__item {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        &_cart {
+            margin: 0 auto;
+        }
+    }
+    .about__wrapper {
+        flex-wrap: wrap;
+    }
+    .about__item {
+        width: 100%;
+    }
+    .about__team {
+        flex-wrap: wrap;
+        &_item {
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+    .about__item_descr {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about__item_score_number {
+        margin: 0 auto;
+        text-align: center;
+        &:first-child {
+            margin-left: auto;
+        }
+    }
+    .about-img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .button--about {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .header__links_list {
+        display: flex;
+}
+@media (max-width: 992px) {
+    .application__item_second {
+        width: 50%;
+    }
+    .container {
+        max-width: 700px;
+    }
+    .application__item_form {
+        input {
+            width: 300px;
+        }
+        textarea {
+            width: 300px;
+        }
+    }
+    .header {
+        height: 700px;
+        &__social {
+            margin-top: 500px;
+        }
+    }
+    .header__social_links_link {
+        font-size: 14px;
+    }
+    .header__burger {
+        display: block;
+        width: 50px;
+        height: 20px;
+        position: fixed;
+        right: 5%;
+        top: 3%;
+        z-index: 1500;
+        transition: all .3s;
+        &_active {
+            span {
+                display: none;
+                transition: all .3s;
+            }
+            &::before {
+                transform: rotate(45deg);
+                bottom: 9%;
+                transition: all .3s;
+            }
+            &::after {
+                transform: rotate(-45deg);
+                top: 9%;
+                transition: all .3s;
+            }
+        }
+        span {
+            position: absolute;
+            background: #000;
+            width: 100%;
+            height: 4px;
+            top: 9px;
+            left: 0;
+            transition: all .3s;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            background: #000;
+            width: 100%;
+            height: 4px;
+            top: 0;
+            left: 0;
+            transition: all .3s;
+        }
+        &::after {
+            content: '';
+            background: #000;
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            bottom: -16%;
+            left: 0;
+            transition: all .3s;
+        }
+    }
+    .header__logo {
+        z-index: 5000;
+    }
+    .header__links_list {
+        display: block;
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        top: -120%;
+        left: 0;
+        padding-top: 103px;
+        transition: all .3s;
+        z-index: 1000;
+        &_active {
+            top: 0;
+        }
+        li {
+            margin: 10px 0;
+            margin-left: 130px;
+        }
+    }
+    .button--header {
+        display: none;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+}
+}
+
+@media (max-width: 772px) {
+    .container {
+        max-width: 500px;
+    }
+    .portfolio__item {
+        &:nth-child(2) {
+            display: none;
+        }
+        &:nth-child(3) {
+            display: none;
+        }
+        &:nth-child(4) {
+            display: none;
+        }
+        &:nth-child(5) {
+            display: none;
+        }
+    }
+    .portfolio__block {
+        flex-wrap: wrap;
+    }
+    .portfolio__all {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .portfolio {
+        min-height: 1500px;
+    }
+    .portfolio__item_cart{
+        width: 500px;
+    }
+    .about__team {
+        flex-wrap: wrap;
+        &_item {
+            width: 100%;
+        }
+    }
+    .about__item_descr {
+        width: 500px;
+    }
+    .header__social_links {
+        a {
+            img {
+                width: 26px;
+            }
+            span {
+                display: none;
+            }
+        }
+    }
+    .application__item_form{
+        input {
+            width: 250px;
+            padding: 0;
+            margin: 0;
+        }
+        textarea {
+            width: 250px;
+        }
+    }
+    .application  {
+        padding-bottom: 39px;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .header {
+        height: 450px;
+    }
+    .header__social {
+        margin-top: 250px;
+    }
+    .application__download {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .application__item_form {
+        margin-top: 30px;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+
+    }
+    .footer__item {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .header__social_links_link{
+        img {
+            margin-right: auto;
+        }
+    }
+    .modal {
+        &__window {
+            &_close {
+                right: 2%;
+                top: -10%;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .about__item_descr {
+        width: 288px;
+    }
+    .about__item_score {
+        flex-wrap: wrap;
+    }
+    .about__item_score_number {
+        width: 100%;
+        margin-top: 15px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    .about__item_score_number_text {
+        margin: 0 auto;
+    }
+    .portfolio__item_cart  {
+        width: 300px;
+        min-height: 300px;
+    }
+    .container {
+        max-width: 300px;
+    }
+    .application__item_second {
+        width: auto;
+    }
+    .portfolio {
+        min-height: 1000px;
+    }
+    .modal {
+        &__window {
+            &_close {
+                right: 2%;
+                top: -13%;
+            }
+        }
+    }
+}

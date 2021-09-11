@@ -1,0 +1,96 @@
+.header {
+    height: 874px;
+    padding: 34px 0 32px 0;
+    background: url("../image/bgcolor1.png") center center / cover no-repeat;
+    &__inner {
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        top: -100%;
+        &_active {
+            position: fixed;
+            background: #fff;
+            width: 100%;
+            height: 55px;
+            top: 0;
+            left: 0;
+            padding-top: 10px;
+            transition: all .3s;
+            z-index: 500;
+        }
+    }
+    &__logo {
+        &_image {
+            a {
+                outline: none;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+    &__links {
+        &_list {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            align-items: center;
+            display: flex;
+            li {
+                margin: 0 16px;
+                a {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #000000;
+                    text-decoration: none;
+                    transition: all .2s;
+                    &:hover {
+                        color: rgb(9, 157, 216);
+                        
+                    }
+                }
+            }
+        }
+    }
+    &__social {
+        text-align: center;
+        margin-top: 670px;
+        &_arrow {
+            img {
+                cursor: pointer;
+            }
+        }
+        &_links{
+            text-align: right;
+            &_link {
+                font-family: Inter;
+                font-size: 18px;
+                line-height: 150%;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #343A40;
+                text-decoration: none;
+                margin: 0 17px;
+                img {
+                    margin-right: 9.6px;
+                }
+            }
+        }
+    }
+    &__descr {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #343A40;
+            margin-top: 41px;
+            width: 212px;
+    }
+}
